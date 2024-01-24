@@ -9,7 +9,8 @@ namespace VeryInterestingApiAndAppBackend.Controllers
     {
         public static List<Movie> Movies { get; set; } = new()
         {
-
+            new Movie {Id = 1, Title = "Lord of the Rings", Director = "Peter Jacksson", Description = "Epic adventure about a friendship turning into something more", Length = 178, ReleaseDate = new DateTime(2001, 12, 19), Rating = 8.9, Category = "Fantasy, Action"},
+            new Movie {Id = 2, Title = "Harry Potter and the Sorcerer's Stone", Director = "Chris Columbus", Description = "Yerr a wizard, Harry", Length = 152, ReleaseDate = new DateTime(2001, 11, 23), Rating = 7.6, Category = "Adventure, Family, Fantasy"}
         };
 
         [HttpGet]
