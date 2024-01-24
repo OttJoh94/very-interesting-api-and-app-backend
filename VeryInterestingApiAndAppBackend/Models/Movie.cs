@@ -11,7 +11,5 @@
         public double Rating { get; set; }
         public DateTime ReleaseDate { get; set; }
         public string? Category { get; set; }
-
-
     }
 }
