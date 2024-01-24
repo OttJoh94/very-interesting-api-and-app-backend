@@ -9,6 +9,6 @@
         public int Length { get; set; }
         public double Rating { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public string? Category { get; set; }
+        public List<string>? Category { get; set; }
     }
 }
