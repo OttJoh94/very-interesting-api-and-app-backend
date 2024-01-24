@@ -4,7 +4,7 @@ namespace VeryInterestingApiAndAppBackend.Controllers
 {
 
     //Ser du denna kodraden Mehdi????
-    //Ny kodrad här
+    //Ny kodrad här??
 
     [ApiController]
     [Route("[controller]")]
